@@ -1,0 +1,107 @@
+body {
+  font-family: 'Inter', sans-serif;
+  color: #FFFFFF;
+  width: 320px;
+  background-color: #1A1B21;
+  margin: 0 auto;
+  margin-top: 50px;
+
+}
+
+
+/* INTRO */
+.intro__img {
+  width: 317px;
+  height: 317px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 25px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.intro__position {
+  color: #F3BF99;
+  font-size: 12px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.intro__buttons {
+  width: 250px;
+  margin: 15px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.intro__buttons button {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  width: 115px;
+  height: 34px;
+  border-radius: 6px;
+}
+
+/* NEED TO ALIGN TEXT AND ICON */
+.email__icon, .linkedin__icon {
+  width: 16px;
+  height: 16px;
+  padding-right: 10px;
+  vertical-align: middle;
+}
+
+.email__icon {
+	margin: 0px 0px 3px 0px;
+}
+
+.linkedin__icon {
+  margin: 0px 0px 4px 0px;
+}
+
+.email__button {
+  border-color: #D1D5DB;
+}
+
+.linkedin__button {
+  border-style: none;
+  background-color: #5093E2;
+  color: #FFFFFF;
+}
+
+h4 {
+  font-size: 16px;
+  font-weight: 700;
+  width: 250px;
+  margin: 25px auto 5px auto;
+}
+
+p {
+  font-size: 12px;
+  width: 250px;
+  margin: 0 auto;
+  font-weight: 300;
+}
+
+
+/* FOOTER */
+.footer {
+  background-color: #161619;
+  width: 317px;
+  height: 64px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 0 0 10px 10px;
+}
+
+.icons {
+  width: 25px;
+  height: 25px;
+}
