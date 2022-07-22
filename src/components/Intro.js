@@ -1,5 +1,5 @@
 import React from "react";
-import profile from "../images/profile.png";
+import profile from "../images/profile.jpeg";
 import emailicon from "../images/emailicon.png";
 import linkedin from "../images/linkedin.png"
 
@@ -10,11 +10,11 @@ export default function Intro() {
         <h1>Mia Pham</h1>
         <p className="intro__position">Frontend Developer</p>
         <div className="intro__buttons">
-          <button className="email__button">
-            <img src={emailicon} className="email__icon" alt="Email" />
+          <button>
+            <img src={emailicon} className="intro__icons" alt="Email" />
             Email</button>
           <button className="linkedin__button">
-            <img src={linkedin} className="linkedin__icon" alt="LinkedIn" />
+            <img src={linkedin} className="intro__icons" alt="LinkedIn" />
             LinkedIn</button>
         </div>
     </div>

@@ -1,20 +1,18 @@
 body {
   font-family: 'Inter', sans-serif;
-  color: #FFFFFF;
+  color: #000000;
   width: 320px;
-  background-color: #1A1B21;
+  background-color: #dba89b;
   margin: 0 auto;
   margin-top: 50px;
-
 }
 
 
 /* INTRO */
 .intro__img {
-  width: 317px;
-  height: 317px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+
 }
 
 h1 {
@@ -25,7 +23,7 @@ h1 {
 }
 
 .intro__position {
-  color: #F3BF99;
+  color: #94310e;
   font-size: 12px;
   margin-top: 0px;
   margin-bottom: 20px;
@@ -46,35 +44,26 @@ h1 {
   width: 115px;
   height: 34px;
   border-radius: 6px;
+  border-style: none;
 }
 
-/* NEED TO ALIGN TEXT AND ICON */
-.email__icon, .linkedin__icon {
+.intro__icons {
   width: 16px;
   height: 16px;
   padding-right: 10px;
   vertical-align: middle;
+  margin-bottom: 2px;
 }
 
-.email__icon {
-	margin: 0px 0px 3px 0px;
-}
-
-.linkedin__icon {
-  margin: 0px 0px 4px 0px;
-}
-
-.email__button {
-  border-color: #D1D5DB;
-}
 
 .linkedin__button {
-  border-style: none;
-  background-color: #5093E2;
+  background-color: #0077b5;
   color: #FFFFFF;
 }
 
+/* ABOUT AND INTERESTS */
 h4 {
+  color: #94310e;
   font-size: 16px;
   font-weight: 700;
   width: 250px;
@@ -91,7 +80,7 @@ p {
 
 /* FOOTER */
 .footer {
-  background-color: #161619;
+  background-color: #d58d7c;
   width: 317px;
   height: 64px;
   margin: 20px auto;
@@ -101,7 +90,7 @@ p {
   border-radius: 0 0 10px 10px;
 }
 
-.icons {
+.footer__icons {
   width: 25px;
   height: 25px;
 }
